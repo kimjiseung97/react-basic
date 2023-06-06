@@ -16,7 +16,7 @@ const NickName = props => {
     const changeNickName = e =>{
         console.log('changeNickName!! call!');
         // nickName = '척척박사';
-        setNickName('척척박사')
+        setNickName('신짱구')
         console.log(nickName);
     }
 
@@ -24,8 +24,8 @@ const NickName = props => {
     return (
     <>
         <h1>Hello~~~{nickName}</h1>
-        <button className='btn' onClick={changeNickName}>척척박사</button>
-        <button className='btn' onClick={()=>setNickName('척척석사')}>척척석사</button>
+        <button className='btn' onClick={changeNickName}>신짱구</button>
+        <button className='btn' onClick={()=>setNickName('이유리')}>이유리</button>
     </>
   )
 }
