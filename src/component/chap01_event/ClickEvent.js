@@ -23,7 +23,7 @@ const ClickEvent = () => {
     <>
     <button id='btn1' onClick={() =>{alert('버튼클릭함')}}>클릭해봐</button>
     <button id='btn2' onClick={greeting}>클릭2</button>
-    <button id='btn3' onMouseOver={changeBox}>클릭3</button>
+    <button id='btn3' onClick={changeBox}>클릭3</button>
 
     <div className='box'></div>
     </>
