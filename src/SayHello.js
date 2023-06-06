@@ -3,7 +3,7 @@ import React from "react";
 // 컴포넌트
 const SayHello = (props) =>{
     return (
-        <div>
+      <div>
         <p>안녕</p>
         {props.children}
         <span>메롱</span>
