@@ -27,7 +27,7 @@ const Counter = () => {
 
     console.log('3. useEffect Call!');
     console.log(`4. nick : ${nick}, number : ${number}`);
-   }, [nick]);
+   }, []);
 
    console.log('1. component function excute!');
 
